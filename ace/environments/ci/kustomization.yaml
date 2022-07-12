@@ -4,7 +4,7 @@ resources:
 - certificates/prod-ref-devops.yaml
 # - configmaps/gitops-repo-configmap.yaml
 # - eventlisteners/ace-bar-event-listener.yaml
-# - eventlisteners/ace-integration-server.yaml
+- eventListeners/ace-integration-server.yaml
 - imagestreams/sh-tools.yaml
 - issuers/prod-ref-ss.yaml
 - issuers/prod-ref-ss-ca.yaml
@@ -20,6 +20,7 @@ resources:
 - pvc/ace-config-pvc.yaml
 - roles/custom-images-builder-role.yaml
 - roles/custom-images-builder-rolebinding.yaml
+- routes/el-ace-integration-server.yaml
 # - roles/custom-pipeline-clusterrole.yaml
 # - roles/custom-pipeline-clusterrolebinding.yaml
 # - routes/el-ace-integration-server.yaml
