@@ -4,7 +4,7 @@ resources:
 # - eventlisteners/ace-bar-event-listener.yaml
 # - eventlisteners/ace-integration-server.yaml
 - imagestreams/sh-tools.yaml
-# - issuers/prod-ref-ss.yaml
+- issuers/prod-ref-ss.yaml
 # - issuers/prod-ref-ss-ca.yaml
 # - pipelines/ace-bar-pipeline.yaml
 - pipelines/ace-integration-server.yaml
@@ -56,5 +56,5 @@ resources:
 # - tasks/ibm-gitops-for-ace-task.yaml
 # - tasks/ibm-jmeter-performance-test.yaml
 - tasks/resolve-props.yaml
-# - triggerbindings/ace-integration-server.yaml
-# - triggertemplates/ace-integration-server.yaml
+- triggerbindings/ace-integration-server.yaml
+- triggertemplates/ace-integration-server.yaml
