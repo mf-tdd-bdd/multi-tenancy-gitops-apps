@@ -15,6 +15,7 @@ resources:
 # - pvc/ace-config-pvc.yaml
 # - pvc/ace-integration-server.yaml
 # - pvc/ace-test-pvc.yaml
+- pvc/ace-config-pvc.yaml
 - roles/custom-images-builder-role.yaml
 - roles/custom-images-builder-rolebinding.yaml
 # - roles/custom-pipeline-clusterrole.yaml
